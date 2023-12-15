@@ -1,0 +1,87 @@
+ la Arquitectura de Negocio de Destino
+	- Funciones relevantes
+	- Organigrama
+	- Objetivos estratégicos institucionales y acciones estratégicas con indicadores
+	- Mapa de procesos nivel 0 y 1
+	- Diagrama de flujos
+
+OJO: Recuerda buscar en el portal de transparencia
+
+3. Desarrollar la Descripción de la Arquitectura de Negocio de Destino
+
+* Mencionar las modificaciones de las actividades de los procesos o de las areas y mencionar lo planificado para dicha área, es decir, implementación de lo que se espera.
+
+*Arquitectura de Negocio de Referencia a Arquitectura de Negocio de Destino (Diagramas realizados en Bizagi Modeler)
+
+4. Realizar Análisis de Brechas
+
+* Verificación de la consistencia y precisión de los modelos de arquitectura
+* Análisis de compensación para resolver conflictos entre diferentes vistas
+* Identificación y explicación las brechas entre la línea de base y el objetivo
+* Especificación de que se mejora y como se hará
+
+5. Definir los Componentes Candidatos de la Hoja de Ruta
+
+* Después de crear la Arquitectura de Referencia y la de Destino, se desarrolla una hoja de ruta de negocio para priorizar actividades futuras.
+OJO: Se puede realizar desde el principio indicando todas las actividades
+
+* Esta hoja de ruta inicial se utilizará como base para una hoja de ruta consolidada en la fase de oportunidades y soluciones.
+Se puede utilizar Diagrama de Gantt mediante Excel o MS Project -> Planificación de las tareas, su duración y
+programación a lo largo del tiempo
+
+6. Resolver Impactos en el Paisaje Arquitectónico
+
+* identificar impactos y oportunidades mediante la especificación de un contexto para una solución.
+* Se consideran proyectos preexistentes, cambios recientes y posibles proyectos futuros que puedan verse afectados o afectar a la Arquitectura de Negocio.
+* Recomendable proponer cuadro de la intensidad de cada impacto para analizar la priorización de cada impacto.
+
+7. Realizar una Revisión Formal de las Partes Interesadas
+
+* Se verifica si la Arquitectura de Negocio propuesta es adecuada para respaldar el trabajo en otros dominios de arquitectura
+* Refinar la Arquitectura de Negocios si es necesario
+* Validación por los dueños del proceso de negocio
+
+Ejemplo:
+Responsables involucrados en el procedimiento
+	Área Responsable:
+	- Grupo Funcional de Supervisión de la Gerencia de Supervisión de Contratos
+
+	Áreas de la empresa involucradas:
+	- Gerencia de Supervisión de Contratos
+	- Grupo Funcional de Supervisión Administrativa o Técnica
+	- Grupo Funcional de Tesorería
+	- Grupo Funcional de Contabilidad
+
+	Entidades Externas Involucradas:
+	- Contratista
+	- Proveedor
+
+8. Finalizar la Arquitectura de Negocio
+
+* Al acabar todos los pasos se ha decidido aprobar la arquitectura de negocio por medio del arquitecto de negocio señalado anteriormente en la Fase Preliminar.
+* No olvidar la firma.
+
+9. Crear el Documento de Definición de Arquitectura
+
+* En este apartado se debe crear un documento formal para el área responsable de todo este proceso. 
+
+
+Fase C - Arquitectura de Sistemas de Información
+
+*Arquitectura de Sistemas de Información
+	-Datos
+	-Aplicaciones
+
+Fase C – DATOS
+
+Definición:
+Desarrollar la arquitectura de datos y aplicaciones objetivo que permita la arquitectura comercial y la visión de la arquitectura, de una manera que aborde la Declaración de trabajo de la arquitectura y las preocupaciones de las partes interesadas.
+
+Etapas:
+
+1. Seleccionar modelos de referencia, puntos de vista y herramientas
+2. Desarrollar la descripción de la arquitectura de datos de referencia
+3. Desarrollar la descripción de la arquitectura de datos de Destino
+4. Realizar Análisis de Brechas
+5. Definir los Componentes Candidatos de la Hoja de Ruta
+6. Resolver Impactos en

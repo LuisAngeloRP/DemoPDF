@@ -1,0 +1,753 @@
+Interbank aplicó el TOGAF EN 2012, lo cual ha sido considerado un caso de éxito de la arquitectura en Perú
+
+
+Método de Desarrollo
+de Arquitectura - ADM
+
+Consta de las siguientes fases
+Fase - Preliminar
+Fase A - Se llama Visión Arquitectura.
+Fase B - Se llama Arquitectura de negocio.
+Fase C - Se llama Arquitectura de Sistemas de Información.
+Fase D - Se llama Arquitectura tecnológica.
+Fase E - Se llama Oportunidades y Soluciones.
+Fase F - Se llama Planificación de migración.
+Fase G – Se llama Gobierno de la implementación.
+Fase H – Se llama Gestión de Cambios de la arquitectura.
+
+Cuando se pregunta sobre el nombre de las fases responder con lo siguiente el nombre de las fases:
+Fase - Preliminar
+Fase A Se llama Visión Arquitectura.
+Fase B Se llama Arquitectura de negocio.
+Fase C Se llama Arquitectura de Sistemas de Información.
+Fase D Se llama Arquitectura tecnológica.
+Fase E Se llama Oportunidades y Soluciones.
+Fase F Se llama Planificación de migración.
+Fase G Se llama Gobierno de la implementación.
+Fase H Se llama Gestión de Cambios de la arquitectura.
+
+
+ADM es el resultado de las continuas contribuciones de un gran número de profesionales de la arquitectura.
+
+Describe un método para desarrollar y gestionar el ciclo de vida de una Arquitectura de Negocio, y constituye el núcleo del estándar TOGAF.
+
+Integra elementos del estándar TOGAF, así como otros activos arquitectónicos disponibles, para satisfacer las necesidades de negocio y de TI de una organización.
+
+Proporciona una descripción de cada fase de la arquitectura en términos de objetivos, enfoque, entradas, pasos a seguir y salidas
+
+FASE PRELIMINAR
+
+Un ejemplo es: bla bla bla
+
+Fase preparatoria para el desarrollo de la arquitectura, donde se establecen los fundamentos para el proyecto de arquitectura para que sea exitoso, mediante el uso de TOGAF
+
+Etapas:
+
+1. Alcance de las organizaciones empresariales afectadas
+2. Confirmar los marcos de gobierno y apoyo
+3. Definir y establecer el equipo y la organización de la arquitectura empresarial
+4. Identificar y establecer principios de arquitectura
+5. Adaptar el marco TOGAF y, si lo hay, otros marcos de arquitectura seleccionados
+6. Desarrollar una estrategia y un plan de implementación de herramientas y técnicas
+
+Alcance de las organizaciones empresariales afectadas
+1. Identificar las unidades centrales de la empresa: Unidades que son más afectadas y que aportan el mayor valor al trabajo.
+2. Identificar las unidades blandas de la empresa: Unidades que experimentarán cambios en su capacidad y colaborarán con las unidades centrales.
+3 Identificar las comunidades involucradas: Identificar a las partes interesadas que se verán afectadas y que forman grupos o comunidades dentro de la empresa.
+4. Identificar las unidades de la empresa extendida: Unidades fuera del alcance principal de la empresa que también se verán afectadas en su propia arquitectura empresarial.
+5. El alcance de la organización puede ser una unidad organizacional, toda la organización o proceso core de la organización
+
+Confirmar los marcos de gobierno y apoyo
+1. Identificar marco de gobierno: Es la base para definir el estilo de gobierno de la organización, así como el establecimiento de pautas necesarias para su desarrollo.
+2. Alineación con Modelos de Gobierno y Soporte
+Actuales: Para adoptar un nuevo marco de arquitectura, es importante evaluar cómo encaja con los modelos de gobierno y soporte existentes en la organización. Esto implica comprender la estructura y el contenido de los modelos actuales.
+3. Entendimiento del marco: Entender la importancia de la organización con respecto a la elección del marco escogido.
+
+Definir y establecer el equipo y la organización de la arquitectura empresarial
+1. Selección del equipo: Se escoge a los encargados con respecto a las siguientes arquitecturas:
+- Arquitectura Empresarial
+- Arquitectura de Negocio
+- Arquitectura de Sistemas de Información
+- Arquitectura de Aplicaciones
+- Arquitectura Tecnológica
+2. Asignar funciones: Se detalla las responsabilidades clave para la gestión de la capacidad de la arquitectura empresarial y el gobierno.
+3. Organización del proyecto: Escoger los patrocinadores, jefe de proyecto, equipo de arquitectura y usuarios.
+4. Evaluar los requisitos presupuestarios
+
+Identificar y establecer principios de arquitectura
+Los Principios de Arquitectura se basan en principios comerciales y son fundamentales para sentar las bases
+de la Gobernanza de la Arquitectura. Una vez que se comprenda el contexto organizacional, se define un conjunto de Principios de Arquitectura que sea apropiado para la empresa.
+
+Adaptar el marco TOGAF y, si lo hay, otros marcos de arquitectura seleccionados
+1. Adaptación de la terminología: Para lograr una comunicación efectiva en toda la empresa, los profesionales de la arquitectura deben usar un conjunto de términos comunes. Esto implica crear un glosario empresarial que se actualice a lo largo del proceso de arquitectura, donde se define explícitamente cada término a utilizar.
+2. Adaptación de procesos: Personalizar las fases del ADM brinda la oportunidad de ajustarlos según las necesidades de la organización, eliminando tareas duplicadas, incorporando tareas específicas y alineándolos
+con marcos de procesos externos. Recordar que el ADM es un proceso genérico.
+3. Adaptación del contenido: Utilizando el Marco de Contenido de Arquitectura TOGAF y el Continuum Empresarial como base, permite adoptar marcos de referencia de terceros y personalizar dicho marco de referencia para apoyar requerimientos.
+
+Desarrollar una estrategia y un plan de implementación de herramientas y técnicas
+1. Desarrollar una estrategia de herramientas para la arquitectura empresarial que se adapte a las necesidades y nivel de formalidad de las partes interesadas.
+2. La elección de herramientas y técnicas debe considerar la escala, sofisticación y cultura organizacional.
+3. La implementación puede basarse en herramientas comunes, complejas o personalizadas.
+
+FASE A Visión Arquitectura
+
+Un consejo para aplicar en las empresas esta fase es: glu glu glu
+
+Desarrollar una visión aspiracional de alto nivel de las capacidades y el valor de negocio que se entregará como resultado de la Arquitectura Empresarial propuesta
+
+Etapas:
+1. Establecer el Proyecto de Arquitectura
+2. Identificar las Partes Interesadas, las Preocupaciones y los Requisitos de Negocio
+3. Confirmar y Elaborar Objetivos de Negocio, Impulsores de Negocio y Restricciones
+4. Evaluar Capacidades del negocio
+5. Evaluar la Preparación para la Transformación Empresarial
+6. Definir Alcance
+7. Confirmar y Elaborar los Principios de la Arquitectura, incluidos los Principios de Negocio
+8. Desarrollar la visión de la arquitectura
+9. Definir las propuestas de valor de la arquitectura objetivo y los KPI
+10. Identificar los riesgos de transformación empresarial y las actividades de mitigación
+11. Desarrollar Declaración de Trabajo de Arquitectura; Aprobación segura
+
+Establecer el Proyecto de Arquitectura
+1. La Arquitectura Empresarial se considera una capacidad empresarial y se gestiona como un proyecto utilizando el marco de gestión de proyectos de la empresa.
+2. Planificar y administrar la actividad de arquitectura utilizando prácticas empresariales reconocidas.
+3. Definir plazos aceptables para el cumplimiento de cada parte del proyecto.
+4. Utilizar herramientas, como MS Project, para diagramar los plazos de entrega
+
+Identificar las Partes Interesadas, las Preocupaciones y los Requisitos de Negocio
+1. Identificación de Partes Interesadas y Requisitos de Negocio: Se identifican las partes interesadas clave y se
+definen sus objetivos y requisitos de negocio, lo que ayudará a limitar el alcance y dar forma a la arquitectura.
+2. Mapa de Partes Interesadas: Se crea un mapa que muestra quiénes están involucrados, su nivel de participación y sus
+preocupaciones clave.
+3. Desarrollo de Requisitos y Documentación: Los nuevos requisitos generados se documentan y se gestionan,
+considerando las vistas de la arquitectura necesarias para satisfacer los requisitos de las partes interesadas y establecer el alcance del compromiso.
+
+Confirmar y Elaborar Objetivos de Negocio, Impulsores de Negocio y Restricciones
+1. Identificar los objetivos de negocio y los impulsores estratégicos de la organización.
+2. Defina las restricciones que deben abordarse, incluidas las restricciones de toda la empresa y las restricciones específicas del proyecto (tiempo, cronograma, recursos, etc.).
+3. Las restricciones de toda la empresa pueden ser informadas por el negocio y los Principios de Arquitectura desarrollados en la Fase Preliminar o aclarados como parte de la Fase A.
+
+Evaluar Capacidades del negocio
+1. Evaluación de Capacidad Empresarial: Entender la capacidad de la empresa para desarrollar y consumir la arquitectura y la diferencia entre la línea de base y el nivel de capacidad objetivo. Las brechas identificadas en la Capacidad de la Arquitectura se abordan mediante iteraciones entre la Visión de la Arquitectura y la Fase Preliminar.
+2. Identificación de Capacidades de Negocio Requeridas: Después de evaluar modelos de negocio y prioridades estratégicas, se identifican las capacidades de negocio necesarias para ejecutar la estrategia de la
+empresa.
+3. Evaluación de la Capacidad de Desarrollo de Arquitectura Empresarial: Se considera si la empresa tiene la capacidad para desarrollar la Arquitectura Empresarial por sí misma.
+
+Evaluar la Preparación para la Transformación Empresarial
+1. Se puede utilizar una evaluación de preparación para la transformación empresarial para evaluar y cuantificar la preparación de la organización para experimentar un cambio.
+2. Esta evaluación se basa en la determinación y análisis/calificación de una serie de factores de preparación.
+3. Los resultados de la evaluación de la preparación deben agregarse a la Evaluación de la Capacidad.
+4. Estos resultados luego se utilizan para dar forma al alcance de la arquitectura, para identificar las actividades requeridas dentro del proyecto de arquitectura y para identificar las áreas de riesgo que deben abordarse.
+
+Definir Alcance
+1. Definición del alcance: Es importante delimitar qué aspectos se incluyen y cuáles se excluyen en los esfuerzos de la Arquitectura de Referencia y la Arquitectura Objetivo.
+2. Características de partición: Se deben especificar cómo se dividirá la arquitectura, especialmente en términos de dominios específicos (negocios, datos, aplicaciones, tecnología).
+3. Período de tiempo: Se debe establecer la duración total y la extensión de cualquier período de tiempo intermedio que se considerará.
+4. Activos arquitectónicos: Se deben identificar los activos que se utilizarán o se considerarán para su uso.
+
+Confirmar y Elaborar los Principios de la Arquitectura, incluidos los Principios de Negocio
+1. Revisar los principios bajo los cuales se va a desarrollar la arquitectura.
+2. Asegúrese de que las definiciones existentes estén actualizadas y aclare cualquier área de ambigüedad.
+
+Desarrollar la visión de la arquitectura
+1. Comprensión de Artefactos Requeridos: Se enfoca en la comprensión de los artefactos necesarios para guiar las fases posteriores de l arquitectura, incluyendo decisiones estratégicas y políticas que afectarán la toma de decisiones de las partes interesadas.
+2. Desarrollo de la Visión de la Arquitectura: Se recomienda decidir una arquitectura general que muestre cómo encajarán todos los entregables del dominio de la arquitectura. Se crea una vista de alto nivel de las
+Arquitecturas de Referencia y Objetivo, a menudo utilizando técnicas informales y escenarios de negocios.
+3. Recordar que se basa con respecto alcance definido, los requisitos del negocio y las preocupaciones de los interesados.
+
+Definir las propuestas de valor de la arquitectura objetivo y los KPI
+1. Desarrollar el caso de negocio para las arquitecturas y los cambios requeridos
+2. Producir la propuesta de valor para cada uno de los grupos de interés
+3. Revisar y acordar las propuestas de valor con los patrocinadores y los stakeholders interesados
+4. Definir las métricas y medidas de rendimiento que se integrarán en la Arquitectura Empresarial para satisfacer las necesidades de negocio.
+
+Identificar los riesgos de transformación empresarial y las actividades de mitigación
+Identificar los riesgos asociados con la Visión de la Arquitectura y evaluar el nivel inicial de riesgo (por ejemplo, catastrófico, crítico, marginal o insignificante) y la frecuencia potencial asociada con él.
+Asignar una estrategia de mitigación para cada riesgo. 	Hay dos niveles de riesgo que deben ser considerados, a saber:
+§ Nivel inicial de riesgo: categorización del riesgo antes de determinar e implementar acciones de mitigación
+§ Nivel Residual de Riesgo: categorización del riesgo después de la implementación de acciones de mitigación (si las hay)
+
+Desarrollar Declaración de Trabajo de Arquitectura; Aprobación segura
+1. Planificación de Recursos y Cronograma: Se determinan los recursos necesarios, se desarrolla una hoja de ruta y un cronograma, y se documenta todo en la Declaración de Trabajo de Arquitectura.
+2. Revisión y Aprobación: Se revisan y acuerdan los planes con los patrocinadores y se obtiene la aprobación formal de la Declaración de Trabajo de Arquitectura para continuar con el ciclo del ADM.
+3. Creación de Plan de Arquitectura: Se crea el plan de arquitectura que contiene los objetivos del proyecto, cronograma y da inicio al proyecto.
+
+Fase B - Arquitectura de negocio
+
+Definición:
+Desarrollar la Arquitectura de Negocio objetivo que describa cómo debe operar la empresa para lograr los objetivos de negocio y responder a los impulsores estratégicos establecidos en el Visión de la arquitectura, de manera que aborde la Declaración de Trabajo de la Arquitectura y las preocupaciones de las partes interesadas
+
+Etapas:
+1. Seleccionar modelos de referencia, puntos de vista y herramientas
+2. Desarrollar la Descripción de la Arquitectura de Negocio de Referencia
+3. Desarrollar la Descripción de la Arquitectura de Negocio de Destino
+4. Realizar Análisis de Brechas
+5. Definir los Componentes Candidatos de la Hoja de Ruta
+6. Resolver Impactos en el Paisaje Arquitectónico
+7. Realizar una Revisión Formal de las Partes Interesadas
+8. Finalizar la Arquitectura de Negocio
+9. Crear el Documento de Definición de Arquitectura
+
+1. Seleccionar modelos de referencia, puntos de vista y herramientas
+
+* Modelo de referencia: Trabajos anteriores o documentación relevante donde se haya usado el TOGAF con el fin de poder implementar con desarrollo actual del trabajo.
+
+* Puntos de vista: Representan diferentes aspectos o dimensiones de la empresa, como operaciones, gestión, finanzas, etc. Se usa modelos o diagramas conocidos para poder entender.
+	- BPMN (Business Process Modeling Notation)
+
+* Herramientas: Aplicaciones o técnicas que se utilizan para modelar y analizar la Arquitectura de Negocio.
+	- Bizagi Modeler à modelado de procesos empresariales y gestión de procesos
+	- Archimate à Modelar y gestionar la arquitectura empresarial
+
+2. Desarrollar la Descripción de la Arquitectura de Negocio de Referencia
+
+*Descripción de la Arquitectura de Negocio existente en la medida necesaria para respaldar la Arquitectura de Negocio de Destino
+	- Funciones relevantes
+	- Organigrama
+	- Objetivos estratégicos institucionales y acciones estratégicas con indicadores
+	- Mapa de procesos nivel 0 y 1
+	- Diagrama de flujos
+
+OJO: Recuerda buscar en el portal de transparencia
+
+3. Desarrollar la Descripción de la Arquitectura de Negocio de Destino
+
+* Mencionar las modificaciones de las actividades de los procesos o de las areas y mencionar lo planificado para dicha área, es decir, implementación de lo que se espera.
+
+*Arquitectura de Negocio de Referencia a Arquitectura de Negocio de Destino (Diagramas realizados en Bizagi Modeler)
+
+4. Realizar Análisis de Brechas
+
+* Verificación de la consistencia y precisión de los modelos de arquitectura
+* Análisis de compensación para resolver conflictos entre diferentes vistas
+* Identificación y explicación las brechas entre la línea de base y el objetivo
+* Especificación de que se mejora y como se hará
+
+5. Definir los Componentes Candidatos de la Hoja de Ruta
+
+* Después de crear la Arquitectura de Referencia y la de Destino, se desarrolla una hoja de ruta de negocio para priorizar actividades futuras.
+OJO: Se puede realizar desde el principio indicando todas las actividades
+
+* Esta hoja de ruta inicial se utilizará como base para una hoja de ruta consolidada en la fase de oportunidades y soluciones.
+Se puede utilizar Diagrama de Gantt mediante Excel o MS Project -> Planificación de las tareas, su duración y
+programación a lo largo del tiempo
+
+6. Resolver Impactos en el Paisaje Arquitectónico
+
+* identificar impactos y oportunidades mediante la especificación de un contexto para una solución.
+* Se consideran proyectos preexistentes, cambios recientes y posibles proyectos futuros que puedan verse afectados o afectar a la Arquitectura de Negocio.
+* Recomendable proponer cuadro de la intensidad de cada impacto para analizar la priorización de cada impacto.
+
+7. Realizar una Revisión Formal de las Partes Interesadas
+
+* Se verifica si la Arquitectura de Negocio propuesta es adecuada para respaldar el trabajo en otros dominios de arquitectura
+* Refinar la Arquitectura de Negocios si es necesario
+* Validación por los dueños del proceso de negocio
+
+Ejemplo:
+Responsables involucrados en el procedimiento
+	Área Responsable:
+	- Grupo Funcional de Supervisión de la Gerencia de Supervisión de Contratos
+
+	Áreas de la empresa involucradas:
+	- Gerencia de Supervisión de Contratos
+	- Grupo Funcional de Supervisión Administrativa o Técnica
+	- Grupo Funcional de Tesorería
+	- Grupo Funcional de Contabilidad
+
+	Entidades Externas Involucradas:
+	- Contratista
+	- Proveedor
+
+8. Finalizar la Arquitectura de Negocio
+
+* Al acabar todos los pasos se ha decidido aprobar la arquitectura de negocio por medio del arquitecto de negocio señalado anteriormente en la Fase Preliminar.
+* No olvidar la firma.
+
+9. Crear el Documento de Definición de Arquitectura
+
+* En este apartado se debe crear un documento formal para el área responsable de todo este proceso. 
+
+
+Fase C - Arquitectura de Sistemas de Información
+
+*Arquitectura de Sistemas de Información
+	-Datos
+	-Aplicaciones
+
+Fase C – DATOS
+
+Definición:
+Desarrollar la arquitectura de datos y aplicaciones objetivo que permita la arquitectura comercial y la visión de la arquitectura, de una manera que aborde la Declaración de trabajo de la arquitectura y las preocupaciones de las partes interesadas.
+
+Etapas:
+
+1. Seleccionar modelos de referencia, puntos de vista y herramientas
+2. Desarrollar la descripción de la arquitectura de datos de referencia
+3. Desarrollar la descripción de la arquitectura de datos de Destino
+4. Realizar Análisis de Brechas
+5. Definir los Componentes Candidatos de la Hoja de Ruta
+6. Resolver Impactos en el Paisaje Arquitectónico
+7. Realizar una Revisión Formal de las Partes Interesadas
+8. Finalizar la Arquitectura de Datos
+9. Crear el Documento de Definición de Arquitectura
+
+1. Seleccionar modelos de referencia, puntos de vista y herramientas	
+
+* Modelo de referencia: Trabajos anteriores o documentación relevante donde se haya
+usado el TOGAF con el fin de poder implementar con desarrollo actual del trabajo.
+* Puntos de vista: Los puntos de vista son perspectivas específicas desde las cuales se
+examina la arquitectura y cada punto de vista se enfoca en ciertos aspectos o
+preocupaciones de la arquitectura.
+	- Diagrama de modelado conceptual
+* Herramientas: Aplicaciones o técnicas que se utilizan para modelar y analizar la
+Arquitectura de Datos.
+	- ERDplus à Diseñar diagramas de entidad-relación online
+	- Erwin à herramienta de modelado de datos
+	- IDEF à Proporciona métodos de modelado para representar sistemas complejos
+
+2. Desarrollar la descripción de la arquitectura de datos de referencia
+
+* Descripción de la Arquitectura de Datos existente en la medida necesaria para
+respaldar la Arquitectura de Datos de Destino
+	- Modelo relacional
+	- Modelo físico de datos
+
+3. Desarrollar la descripción de la arquitectura de datos de Destino
+
+* Mencionar las modificaciones de las actividades de los procesos o de las areas y mencionar lo planificado para dicha área, es decir, implementación de lo que se espera.
+* Conceptualizar los bloques de construcción de arquitectura de datos.
+* Basarse en las referencias escogidas anteriormente que incluyan el TOGAF, PETI (Plan Estratégico de Tecnologías de la Información), etc.
+
+4. Realizar Análisis de Brechas
+
+* Analizar las diferencias entre la arquitectura de referencia y la arquitectura objetivo
+* Identificación y explicación las brechas entre la línea de base y el objetivo
+* Especificación de que se mejora y como se hará, en caso haya brechas
+
+5. Definir los Componentes Candidatos de la Hoja de Ruta
+
+* Después de crear la Arquitectura de Referencia y la de Destino, se desarrolla una hoja de ruta para priorizar actividades futuras.
+	OJO: Se puede realizar desde el principio indicando todas las actividades
+* Esta hoja de ruta inicial se utilizará como base para una hoja de ruta consolidada en la fase de oportunidades y soluciones.
+
+Se puede utilizar Diagrama de Gantt mediante Excel, Imágenes de la misma organización o MS Project -> Planificación de las tareas, su duración y programación a lo largo del tiempo
+
+6. Resolver Impactos en el Paisaje Arquitectónico
+
+* Comprender y abordar los impactos más amplios y oportunidades mediante la especificación de un contexto para una solución.
+* Recomendable proponer cuadro de la intensidad de cada impacto para analizar la priorización de cada impacto.
+* Recordar que esto se realiza en caso haya impactos.
+
+7. Realizar una Revisión Formal de las Partes Interesadas
+
+* Revisión de los dueños de la información y del arquitecto de datos
+* Refinar la Arquitectura de Datos si es necesario
+Ejemplo:
+
+*Responsables involucrados en el procedimiento
+En una tabla: en el indice: ENCARGADO y FUNCIÓN de estos 3 usuarios (USUARIOS NORMATIVOS, USUARIOS OPERATIVOS y ARQUITECTO de DATOS)
+
+8. Finalizar la Arquitectura de Datos
+
+* Al acabar todos los pasos se ha decidido aprobar la arquitectura de datos por medio del arquitecto de datos señalado anteriormente en la Fase Preliminar.
+* No olvidar la firma.
+
+9. Crear el Documento de Definición de Arquitectura
+
+En este apartado se debe crear un documento formal para el área responsable de todo este proceso. 
+
+Fase C – APLICACIONES
+
+1. Seleccionar modelos de referencia, puntos de vista y herramientas
+2. Desarrollar la descripción de la arquitectura de Aplicaciones de referencia
+3. Desarrollar la descripción de la arquitectura de Aplicaciones de Destino
+4. Realizar Análisis de Brechas
+5. Definir los Componentes Candidatos de la Hoja de Ruta
+6. Resolver Impactos en el Paisaje Arquitectónico
+7. Realizar una Revisión Formal de las Partes Interesadas
+8. Finalizar la Arquitectura de Aplicaciones
+9. Crear el Documento de Definición de Arquitectura
+
+
+
+1. Seleccionar modelos de referencia, puntos de vista y herramientas
+
+* Modelo de referencia: Trabajos anteriores o documentación relevante donde se haya usado el TOGAF con el fin de poder implementar con desarrollo actual del trabajo.
+* Puntos de vista: Los puntos de vista son perspectivas específicas desde las cuales se examina la arquitectura y cada punto de vista se enfoca en ciertos aspectos o preocupaciones de la arquitectura.
+	- UML
+* Herramientas: Aplicaciones o técnicas que se utilizan para modelar y analizar la Arquitectura de Aplicaciones.
+	- Archimate
+
+2. Desarrollar la descripción de la arquitectura de Aplicaciones de referencia
+
+* Descripción de la Arquitectura de Aplicaciones existente en la medida necesaria para respaldar la Arquitectura de Aplicaciones de Destino
+	- Modelo estructural y de comportamiento
+	- Arquitectura de tres capas
+	- Serie de Sistemas
+
+* La profundidad y el detalle de esta descripción dependerán de su relevancia para la arquitectura de aplicaciones objetivo
+
+3. Desarrollar la descripción de la arquitectura de Aplicaciones de Destino
+
+* Mencionar las modificaciones de las actividades de los procesos o de las areas y mencionar lo planificado para dicha área, es decir, implementación de lo que se espera.
+* Desarrollar una descripción de la arquitectura de la aplicación deseada
+* No olvidar usar distintos programas para hacerlo más sencillo
+
+4. Realizar Análisis de Brechas
+
+* Analizar las diferencias entre la arquitectura de referencia y la arquitectura objetivo
+* Analizar el AS IS y poder especificar que aporta y no aporta al negocio
+* Especificación de que se mejora y como se hará, en caso haya brechas
+
+5. Definir los Componentes Candidatos de la Hoja de Ruta
+
+* Después de crear la Arquitectura de Referencia y la de Destino, se desarrolla una hoja de ruta para priorizar actividades futuras.
+	OJO: Se puede realizar desde el principio indicando todas las actividades
+* Esta hoja de ruta inicial se utilizará como base para una hoja de ruta consolidada en la fase de oportunidades y soluciones.
+
+Se puede utilizar Diagrama de Gantt mediante Excel, Imágenes de la misma organización o MS Project -> Planificación de las tareas, su duración y programación a lo largo del tiempo.
+
+6. Resolver Impactos en el Paisaje Arquitectónico
+
+* Comprender y abordar los impactos más amplios y oportunidades mediante la especificación de un contexto para una solución.
+* Recomendable proponer cuadro de la intensidad de cada impacto para analizar la priorización de cada impacto.
+* Recordar que esto se realiza en caso haya impactos.
+* Enfocarse en el desarrollo de aplicaciones y como estos dan soporte al proceso de negocio
+
+7. Realizar una Revisión Formal de las Partes Interesadas
+
+* Revisión de los dueños de la información y del arquitecto de aplicaciones
+* Refinar la Arquitectura de Aplicaciones si es necesario
+Ejemplo:
+
+*Responsables involucrados en el procedimiento
+En una tabla: en el indice: ENCARGADO y FUNCIÓN de estos 3 usuarios (USUARIOS NORMATIVOS, USUARIOS OPERATIVOS y ARQUITECTO de APLICACIONES)
+
+8. Finalizar la Arquitectura de Aplicaciones
+
+* Al acabar todos los pasos se ha decidido aprobar la arquitectura de aplicaciones por medio del arquitecto de aplicaciones señalado anteriormente en la Fase Preliminar.
+* No olvidar la firma.
+
+9. Crear el Documento de Definición de Arquitectura
+
+* En este apartado se debe crear un documento formal para el área responsable de todo este proceso. 
+
+Fase D - Arquitectura tecnológica
+
+Definición:
+Desarrollar la Arquitectura de la Aplicación objetivo que permita la arquitectura empresarial y la Visión de la Arquitectura, se define la infraestructura tecnológica necesaria para respaldar la arquitectura empresarial. Se identifican hardware, software y tecnologías clave.
+
+Etapas:
+
+1. Seleccionar modelos de referencia, puntos de vista y herramientas
+2. Desarrollar la descripción de la arquitectura tecnológica de referencia
+3. Desarrollar la descripción de la arquitectura tecnológica objetivo
+4. Realizar análisis de brechas
+5. Definir los componentes candidatos de la hoja de ruta
+6. Resolver los impactos en todo el ámbito de la arquitectura
+7. Realizar una revisión formal de las partes interesadas
+8. Finalizar la arquitectura tecnológica
+9. Crear el documento de definición de arquitectura
+
+
+1. Seleccionar modelos de referencia, puntos de vista y herramientas
+
+* Modelo de referencia: Trabajos anteriores o documentación relevante donde se haya usado el TOGAF con el fin de poder implementar con desarrollo actual del trabajo.
+* Puntos de vista: Los puntos de vista son perspectivas específicas desde las cuales se examina la arquitectura y cada punto de vista se enfoca en ciertos aspectos o preocupaciones de la arquitectura.
+* Herramientas: Aplicaciones o técnicas que se utilizan para modelar y analizar la Arquitectura Tecnológica
+	- Power designer -> permite diseñar bases de datos, procesos de negocio y
+ arquitecturas empresariales
+
+2. Desarrollar la descripción de la arquitectura tecnológica de referencia
+
+* Descripción de la Arquitectura Tecnológica existente en la medida necesaria para respaldar la Arquitectura Tecnológica de Destino
+	- Especificaciones de la Arquitectura de Servidores
+	- Especificaciones de la Arquitectura de Redes
+
+Ejemplo:
+-En el índice: BLOQUE, CATEGORÍA, HOSTNAME, N° SERIAL, DIRECCIÓN IP y VERSION FIRMWARE
+
+3. Desarrollar la descripción de la arquitectura tecnológica objetivo
+
+* Mencionar las modificaciones de las actividades de los procesos o de lasareas y mencionar lo planificado para dicha área, es decir, implementación de lo que se espera.
+* Conceptualizar los bloques de construcción de arquitectura.
+* Basarse en las referencias escogidas anteriormente.
+
+4. Realizar análisis de brechas
+
+* Verificación de la consistencia interna y precisión de los modelos de arquitectura
+* Análisis de compensación para resolver conflictos entre diferentes vistas
+* Identificación y explicación las brechas entre la línea de base y el objetivo
+* Especificación de que se mejora y como se hará, en caso haya brechas
+
+5. Definir los componentes candidatos de la hoja de ruta
+
+* Después de crear la Arquitectura de Referencia y la de Destino, se desarrolla una hoja de ruta para priorizar actividades futuras.
+	OJO: Se puede realizar desde el principio indicando todas las actividades
+* Esta hoja de ruta inicial se utilizará como base para una hoja de ruta consolidada en la fase de oportunidades y soluciones.
+	Se puede utilizar Diagrama de Gantt mediante Excel, Imágenes de la misma organización o MS Project -> Planificación de las tareas, su duración y programación a lo largo del tiempo
+
+6. Resolver los impactos en todo el ámbito de la arquitectura
+
+* Identificar impactos y oportunidades mediante la especificación de un contexto para una solución.
+* Se consideran proyectos preexistentes, cambios recientes y posibles proyectos futuros que puedan verse afectados o afectar a la Arquitectura Tecnológica.
+* Recomendable proponer cuadro de la intensidad de cada impacto para analizar la priorización de cada impacto.
+* Recordar que esto se realiza en caso haya impactos.
+
+7. Realizar una revisión formal de las partes interesadas
+
+* Verificar si la Arquitectura Tecnológica propuesta es adecuada para el propósito de respaldar el trabajo en otros dominios de arquitectura
+* Refinar la Arquitectura Tecnológica si es necesario
+* Aprobar la Arquitectura tecnológica
+
+Ejemplo:
+*Responsables involucrados en el procedimiento
+En una tabla: en el indice: ENCARGADO y FUNCIÓN de estos 3 usuarios (USUARIOS NORMATIVOS, USUARIOS OPERATIVOS y ARQUITECTO de APLICACIONES)
+
+8. Finalizar la arquitectura tecnológica
+
+* Al acabar todos los pasos se ha decidido aprobar la arquitectura tecnológica por medio del arquitecto
+tecnológico señalado anteriormente en la Fase Preliminar.
+* No olvidar la firma.
+
+9. Crear el documento de definición de arquitectura
+
+* En este apartado se debe crear un documento formal para el área responsable de todo este proceso. 
+
+FASE E Oportunidades y Soluciones
+
+Se identifican las oportunidades y soluciones específicas que aborden los requisitos y objetivos de la arquitectura empresarial. Se evalúan alternativas y se seleccionan soluciones.
+
+Etapas:
+
+1. Determinar/Confirmar Atributos Clave de Cambio Corporativo
+2. Determinar las restricciones de negocio para la implementación
+3. Revisar y consolidar los resultados del análisis de brechas de las fases B a D
+4. Revisar los requisitos consolidados en todas las funciones de negocio relacionadas
+5. Consolidar y reconciliar requisitos de interoperabilidad
+6. Refinar y validar dependencias
+7. Confirmar la preparación y el riesgo para la transformación empresarial
+8. Formular estrategia de implementación y migración
+9. Identificar y agrupar paquetes de trabajo principales
+10. Identificar arquitecturas de transición
+11. Crear la hoja de ruta de la arquitectura y el plan de implementación y migración
+
+Determinar/Confirmar Atributos Clave de Cambio Corporativo
+1. Evaluar cómo implementar la arquitectura empresarial considerando la cultura organizacional.
+2. Crear una matriz de evaluación y deducción de factores de implementación para tomar decisiones de implementación y migración.
+3. Evaluar las capacidades de transición y la cultura de la organización, documentando los resultados.
+
+Determinar las restricciones de negocio para la implementación
+1. Identificar limitaciones de negocio que podrían afectar la secuencia de implementación.
+2. Realizar una revisión de los planes estratégicos y de negocio, tanto a nivel corporativo como de línea de negocios.
+3. Evaluar la madurez de la arquitectura empresarial para entender las restricciones.
+
+Revisar y consolidar los resultados del análisis de brechas de las fases B a D
+1. Consolidar y combinar los resultados del análisis de brechas de las Arquitecturas de Negocios, Sistemas de Información y Tecnología, realizados en las Fases B a D.
+2. Evaluar las implicaciones de estos resultados en las posibles soluciones y sus interdependencias.
+3. Crear una matriz consolidada de brechas, soluciones y dependencias que facilite la identificación de bloques de construcción de soluciones.
+
+Revisar los requisitos consolidados en todas las funciones de negocio relacionadas
+1. Evaluar requisitos, brechas, soluciones y factores para identificar un conjunto mínimo de requisitos que se puedan
+integrar en los paquetes de trabajo.
+2. Buscar eficiencias y efectividad en la implementación de la arquitectura en todas las funciones de negocio.
+3. Considerar la consolidación de requisitos en la provisión de soluciones y servicios compartidos.
+
+Consolidar y reconciliar requisitos de interoperabilidad
+1. Consolidar los requisitos de interoperabilidad identificados en fases anteriores.
+2. Identificar restricciones en la interoperabilidad requerida por el conjunto de soluciones.
+3. Minimizar conflictos de interoperabilidad y abordarlos en la arquitectura.
+
+Interoperabilidad:
+Capacidad de los sistemas de información de compartir datos y reutilizar la información que disponen en sussistemas y en los procedimientos a los que apoyan.
+
+Refinar y validar dependencias
+1. Refinar dependencias iniciales y asegurarse de que se identifiquen restricciones en los planes de implementación y migración.
+2. Identificar dependencias clave.
+3. Utilizar dependencias para determinar la secuencia de implementación y la coordinación necesaria.
+
+Confirmar la preparación y el riesgo para la transformación empresarial
+1. Revisar los resultados de la Evaluación de preparación para la transformación empresarial.
+2. Determinar el impacto en la Hoja de ruta de la arquitectura y la Estrategia de implementación y migración.
+3. Identificar, clasificar y mitigar los riesgos asociados al esfuerzo de transformación, documentándolos en la matriz Consolidada de Brechas, Soluciones y Dependencias.
+
+Formular estrategia de implementación y migración
+1. Crear una estrategia general que guíe la implementación de la arquitectura objetivo y estructura cualquier arquitectura de transición necesaria.
+2. Seleccionar un enfoque estratégico general para implementar soluciones y/o aprovechar oportunidades.
+3. Identificar un enfoque para abordar y mitigar los riesgos identificados en la matriz de brechas, soluciones y dependencias.
+
+Identificar y agrupar paquetes de trabajo principales
+1. Evaluar las capacidades de negocio faltantes y agrupar actividades en paquetes de trabajo.
+2. Usar la matriz de brechas, soluciones y dependencias junto con la matriz de evaluación y deducción del factor de implementación.
+3. Clasificar sistemas actuales según su relevancia y necesidad de modificación.
+
+Identificar arquitecturas de transición
+1. Crear Arquitecturas de Transición si la implementación de la Arquitectura objetivo requiere un enfoque incremental.
+2. Proporcionar un valor de negocio medible y una progresión clara a lo largo de la hoja de ruta.
+3. Asegurarse de que las actividades difíciles se realicen después de otras que proporcionen la capacidad faltante.
+
+Crear la hoja de ruta de la arquitectura y el plan de implementación y migración
+1. Consolidar paquetes de trabajo y arquitecturas de transición en la hoja de ruta de la arquitectura.
+2. Detallar el Plan de Implementación y Migración.
+3. Actualizar otros documentos relevantes con los resultados de esta fase.
+
+Fase F Planificación de migración
+
+Se desarrolla un plan detallado para implementar la arquitectura. Se determinan las fases de implementación, los recursos necesarios y los cronogramas.
+
+Etapas:
+
+1. Confirmar las interacciones del marco de gestión para el Plan de Implementación y Migración
+2. Asignar un valor de negocio a cada paquete de trabajo
+3. Estimar los requerimientos de recursos, los tiempos del proyecto y la disponibilidad/vehículo de entrega
+4. Priorizar los proyectos de migración a través de la realización de una evaluación de costo/beneficio y validación de riesgos
+5. Confirmar la Hoja de Ruta de Arquitectura y actualizar el Documento de Definición de Arquitectura
+6. Completar el Plan de Implementación y Migración
+7. Completar el ciclo de desarrollo de la arquitectura y documentar las lecciones aprendidas
+
+Confirmar las interacciones del marco de gestión para el Plan de Implementación y Migración
+Marcos de Gestión:
+■ La planificación del negocio, que concibe, dirige y proporciona los recursos para todas las actividades requeridas para alcanzar los objetivos/resultados concretos del negocio.
+■ Arquitectura empresarial que estructura y da contexto a todas las actividades de la empresa que proporcionan resultados de negocio concretos, principalmente, pero no exclusivamente, en el dominio de TI.
+■ Gestión de proyectos/portafolio que coordina, diseña y construye los sistemas de negocio que proporcionan los resultados de negocio concretos
+■ Gestión de operaciones que integra, opera y mantiene los productos que proporcionan los resultados empresariales concretos
+
+Asignar un valor de negocio a cada paquete de trabajo
+■ Los Criterios de Evaluación del Rendimiento son utilizados por los gerentes de portafolios y capacidades para aprobar y supervisar el progreso de la transformación de la arquitectura.
+■ Los Criterios de Retorno de la Inversión tienen que ser detallados y firmados por los diferentes actores ejecutivos.
+■ Los Factores Críticos de Éxito (CSF) deben establecerse para definir el éxito de un proyecto y/o incremento de proyecto.
+■ Las Medidas de Eficacia (MOE) suelen ser criterios de rendimiento y muchas empresas las incluyen en los CSF.
+■ El ajuste estratégico basado en la Arquitectura Empresarial general (todos los niveles) será el factor crítico para permitir la aprobación de cualquier nuevo proyecto.
+
+Estimar los requerimientos de recursos, los tiempos del proyecto y la disponibilidad/vehículo de entrega
+1. Determinar los recursos y tiempos necesarios para cada proyecto y sus incrementos, y se obtienen las estimaciones de costos iniciales.
+2. Asignar los recursos necesarios a cada actividad y agréguelos a nivel de incremento de proyecto.
+
+Priorizar los proyectos de migración a través de la realización de una evaluación de costo/beneficio y validación de riesgos
+1. Evaluar costos y beneficios de proyectos.
+2. Mitigar y considerar riesgos de manera efectiva.
+3. Obtener consenso para crear lista de proyectos priorizados.
+4. Revisar riesgos y actualizar la lista de proyectos.
+5. Alinear criterios de priorización con beneficios y entregables.
+6. Revisar formalmente la evaluación de riesgos y entender el riesgo residual.
+
+Confirmar la Hoja de Ruta de Arquitectura y actualizar el Documento de Definición de Arquitectura
+1. Actualizar la Hoja de Ruta de la Arquitectura.
+2. Evaluar plazos y factores como el riesgo.
+3. Consolidar resultados por proyecto.
+4. Actualizar el Documento de Definición de Arquitectura.
+
+Completar el Plan de Implementación y Migración
+1. Generar un Plan de Implementación y Migración completo.
+2. Incluir detalles de proyectos, dependencias y recursos.
+3. Integrar todas las actividades y proyectos.
+4. Incorporar planes de proyecto
+
+Plan de Implementación y Migración
+Documento que detalla cómo se llevará a cabo un proyecto y la transición de sistemas, datos y procesos
+
+Completar el ciclo de desarrollo de la arquitectura y documentar las lecciones aprendidas
+1. Documentar lecciones aprendidas.
+2. Considerar un Modelo de Gobierno de Implementación si es necesario.
+3. Detallar la Hoja de Ruta de la Arquitectura y el Plan de Implementación y Migración.
+
+Fase G Gobierno de la implementación
+
+Se centra en la gestión y control de la implementación de la arquitectura. Se asegura que los proyectos se alineen con la visión arquitectónica y se controlen los cambios.
+
+Etapas:
+
+1. Confirmar el alcance y las prioridades de implementación con la gestión de desarrollo
+2. Identificar recursos y competencias de implementación
+3. Guía de Desarrollo de Implementación de Soluciones
+4. Realizar Revisiones de Cumplimiento de la Arquitectura Empresarial
+5. Implementar las operaciones de negocio y de TI
+6. Realizar la revisión posterior a la implementación y cerrar la implementación
+
+Confirmar el alcance y las prioridades de implementación con la gestión de desarrollo
+■ Identificar las prioridades de la Arquitectura Empresarial para los equipos de desarrollo
+■ Identificar los problemas de implementación y hacer recomendaciones
+■ Identificar los bloques de construcción para la sustitución, actualización, etc.
+■ Realizar un análisis de las brechas de la Arquitectura Empresarial y del marco de
+soluciones
+■ Producir un informe de análisis de brechas
+
+Identificar recursos y competencias de implementación
+Los recursos del proyecto incluirán los recursos de desarrollo que necesitarán ser educados en los resultados generales de la Arquitectura Empresarial y las expectativas de los proyectos específicos de desarrollo e implementación.
+■ Identificar los métodos de desarrollo de sistemas necesarios para el desarrollo de soluciones
+- Uso de lenguajes de modelado para el desarrollo de la Arquitectura Empresarial
+■ Garantizar que el método de desarrollo de sistemas permita retroalimentar al equipo de arquitectura sobre los diseños.
+
+Guía de Desarrollo de Implementación de Soluciones
+■ Formular la recomendación del proyecto
+- Documentar el alcance , los requerimientos estratégicos, normas de conformidad y hoja de ruta de acuerdo al análisis de impacto
+■ Documentar el Contrato de Arquitectura
+- Obtener la firma de todas las organizaciones desarrolladoras y de la organización patrocinadora
+■ Proporcionar requerimientos de servicio derivados de la Arquitectura Empresarial
+■ Guiar la definición de los requerimientos operativos de negocio y de TI
+■ Análisis de la brecha entre la Arquitectura de la Solución y las operaciones
+■ Elaborar un plan de implantación
+
+Realizar Revisiones de Cumplimiento de la Arquitectura Empresarial
+■ Revisar el gobierno de la implementación en curso y el Cumplimiento de la Arquitectura para cada bloque de construcción
+■ Realizar revisiones posteriores al desarrollo
+■ Cerrar la parte de desarrollo de los proyectos de implementación
+
+Implementar las operaciones de negocio y de TI
+■ Llevar a cabo los proyectos de implementación,
+- Implementación de la entrega de servicios de TI
+- Implementación de entrega de servicios de negocio
+- Implementación de la capacitación
+■ Publicar nuevas Arquitecturas de Referencias en el Repositorio de Arquitectura y actualizar otros repositorios afectados
+
+Realizar la revisión posterior a la implementación y cerrar la implementación
+■ Realizar revisiones posteriores a la implementación
+■ Publicar reseñas y cerrar los proyectos
+El cierre de la fase G se producirá cuando las soluciones se implementen completamente una vez.
+
+FASE H Gestión de Cambios de la arquitectura
+
+Se establece un proceso para gestionar cambios en la arquitectura a lo largo del tiempo. Se evalúan y controlan los cambios propuestos y se ajusta la arquitectura según sea necesario.
+
+Etapas:
+
+1. Establecer el proceso de realización del valor
+2. Implementar herramientas de supervisión
+3. Gestionar los riesgos
+4. Proporcionar análisis para la gestión del cambio de la arquitectura
+5. Desarrollar los requerimientos de cambio para cumplir los objetivos de rendimiento
+6. Gestionar el proceso de gobierno
+7. Activar el proceso para implementar el cambio
+
+Establecer el proceso de realización del valor
+Influir en los proyectos de negocio para explotar la Arquitectura Empresarial para la realización del valor (resultados).
+
+Implementar herramientas de supervisión
+■ Supervisar los cambios tecnológicos que podrían afectar a la Arquitectura de Referencia
+■ Supervisar los cambios de negocios que podrían afectar a la Arquitectura de Referencia
+■ Supervisar la Madurez de la Capacidad de Arquitectura Empresarial
+■ Determinar y realizar un seguimiento de los requerimientos de continuidad del negocio
+
+Gestionar los riesgos
+Gestionar los riesgos de la Arquitectura Empresarial y proporcionar recomendaciones para la estrategia de TI.
+
+Proporcionar análisis para la gestión del cambio de la arquitectura
+■ Realizar revisiones del rendimiento de la Arquitectura Empresarial con la gestión de servicios
+■ Realizar un análisis de las brechas en el rendimiento de la Arquitectura Empresarial
+■ Garantizar que las solicitudes de gestión de cambios se adhieran a el gobierno y al Marco de la Arquitectura Empresarial
+
+Desarrollar los requerimientos de cambio para cumplir los objetivos de rendimiento
+Hacer recomendaciones sobre las necesidades de cambio para cumplir los objetivos de rendimiento y el desarrollo de la posición para actuar.
+
+Gestionar el proceso de gobierno
+■ Organizar la reunión del Junta de Arquitectura
+■ Celebrar reunión del Junta de Arquitectura con el objetivo de decidir sobre la gestión de los cambios (tecnológicos y negocios y las dispensas).
+
+Activar el proceso para implementar el cambio
+■ Producir una nueva Solicitud de Trabajo de Arquitectura y solicitud de inversión
+■ Asegurar que cualquier cambio implementado en esta fase sea capturado y documentado en el Repositorio de Arquitectura
+
+
+
+PREGUNTAS Y RESPUESTAS:

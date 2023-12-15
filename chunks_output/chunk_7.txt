@@ -1,0 +1,71 @@
+rollar la descripción de la arquitectura de Aplicaciones de Destino
+4. Realizar Análisis de Brechas
+5. Definir los Componentes Candidatos de la Hoja de Ruta
+6. Resolver Impactos en el Paisaje Arquitectónico
+7. Realizar una Revisión Formal de las Partes Interesadas
+8. Finalizar la Arquitectura de Aplicaciones
+9. Crear el Documento de Definición de Arquitectura
+
+
+
+1. Seleccionar modelos de referencia, puntos de vista y herramientas
+
+* Modelo de referencia: Trabajos anteriores o documentación relevante donde se haya usado el TOGAF con el fin de poder implementar con desarrollo actual del trabajo.
+* Puntos de vista: Los puntos de vista son perspectivas específicas desde las cuales se examina la arquitectura y cada punto de vista se enfoca en ciertos aspectos o preocupaciones de la arquitectura.
+	- UML
+* Herramientas: Aplicaciones o técnicas que se utilizan para modelar y analizar la Arquitectura de Aplicaciones.
+	- Archimate
+
+2. Desarrollar la descripción de la arquitectura de Aplicaciones de referencia
+
+* Descripción de la Arquitectura de Aplicaciones existente en la medida necesaria para respaldar la Arquitectura de Aplicaciones de Destino
+	- Modelo estructural y de comportamiento
+	- Arquitectura de tres capas
+	- Serie de Sistemas
+
+* La profundidad y el detalle de esta descripción dependerán de su relevancia para la arquitectura de aplicaciones objetivo
+
+3. Desarrollar la descripción de la arquitectura de Aplicaciones de Destino
+
+* Mencionar las modificaciones de las actividades de los procesos o de las areas y mencionar lo planificado para dicha área, es decir, implementación de lo que se espera.
+* Desarrollar una descripción de la arquitectura de la aplicación deseada
+* No olvidar usar distintos programas para hacerlo más sencillo
+
+4. Realizar Análisis de Brechas
+
+* Analizar las diferencias entre la arquitectura de referencia y la arquitectura objetivo
+* Analizar el AS IS y poder especificar que aporta y no aporta al negocio
+* Especificación de que se mejora y como se hará, en caso haya brechas
+
+5. Definir los Componentes Candidatos de la Hoja de Ruta
+
+* Después de crear la Arquitectura de Referencia y la de Destino, se desarrolla una hoja de ruta para priorizar actividades futuras.
+	OJO: Se puede realizar desde el principio indicando todas las actividades
+* Esta hoja de ruta inicial se utilizará como base para una hoja de ruta consolidada en la fase de oportunidades y soluciones.
+
+Se puede utilizar Diagrama de Gantt mediante Excel, Imágenes de la misma organización o MS Project -> Planificación de las tareas, su duración y programación a lo largo del tiempo.
+
+6. Resolver Impactos en el Paisaje Arquitectónico
+
+* Comprender y abordar los impactos más amplios y oportunidades mediante la especificación de un contexto para una solución.
+* Recomendable proponer cuadro de la intensidad de cada impacto para analizar la priorización de cada impacto.
+* Recordar que esto se realiza en caso haya impactos.
+* Enfocarse en el desarrollo de aplicaciones y como estos dan soporte al proceso de negocio
+
+7. Realizar una Revisión Formal de las Partes Interesadas
+
+* Revisión de los dueños de la información y del arquitecto de aplicaciones
+* Refinar la Arquitectura de Aplicaciones si es necesario
+Ejemplo:
+
+*Responsables involucrados en el procedimiento
+En una tabla: en el indice: ENCARGADO y FUNCIÓN de estos 3 usuarios (USUARIOS NORMATIVOS, USUARIOS OPERATIVOS y ARQUITECTO de APLICACIONES)
+
+8. Finalizar la Arquitectura de Aplicaciones
+
+* Al acabar todos los pasos se ha decidido aprobar la arquitectura de aplicaciones por medio del arquitecto de aplicaciones señalado anteriormente en la Fase Preliminar.
+* No olvidar la firma.
+
+9. Crear el Documento de Definición de Arquitectura
+
+* En este

@@ -1,0 +1,37 @@
+ partes interesadas clave y se
+definen sus objetivos y requisitos de negocio, lo que ayudará a limitar el alcance y dar forma a la arquitectura.
+2. Mapa de Partes Interesadas: Se crea un mapa que muestra quiénes están involucrados, su nivel de participación y sus
+preocupaciones clave.
+3. Desarrollo de Requisitos y Documentación: Los nuevos requisitos generados se documentan y se gestionan,
+considerando las vistas de la arquitectura necesarias para satisfacer los requisitos de las partes interesadas y establecer el alcance del compromiso.
+
+Confirmar y Elaborar Objetivos de Negocio, Impulsores de Negocio y Restricciones
+1. Identificar los objetivos de negocio y los impulsores estratégicos de la organización.
+2. Defina las restricciones que deben abordarse, incluidas las restricciones de toda la empresa y las restricciones específicas del proyecto (tiempo, cronograma, recursos, etc.).
+3. Las restricciones de toda la empresa pueden ser informadas por el negocio y los Principios de Arquitectura desarrollados en la Fase Preliminar o aclarados como parte de la Fase A.
+
+Evaluar Capacidades del negocio
+1. Evaluación de Capacidad Empresarial: Entender la capacidad de la empresa para desarrollar y consumir la arquitectura y la diferencia entre la línea de base y el nivel de capacidad objetivo. Las brechas identificadas en la Capacidad de la Arquitectura se abordan mediante iteraciones entre la Visión de la Arquitectura y la Fase Preliminar.
+2. Identificación de Capacidades de Negocio Requeridas: Después de evaluar modelos de negocio y prioridades estratégicas, se identifican las capacidades de negocio necesarias para ejecutar la estrategia de la
+empresa.
+3. Evaluación de la Capacidad de Desarrollo de Arquitectura Empresarial: Se considera si la empresa tiene la capacidad para desarrollar la Arquitectura Empresarial por sí misma.
+
+Evaluar la Preparación para la Transformación Empresarial
+1. Se puede utilizar una evaluación de preparación para la transformación empresarial para evaluar y cuantificar la preparación de la organización para experimentar un cambio.
+2. Esta evaluación se basa en la determinación y análisis/calificación de una serie de factores de preparación.
+3. Los resultados de la evaluación de la preparación deben agregarse a la Evaluación de la Capacidad.
+4. Estos resultados luego se utilizan para dar forma al alcance de la arquitectura, para identificar las actividades requeridas dentro del proyecto de arquitectura y para identificar las áreas de riesgo que deben abordarse.
+
+Definir Alcance
+1. Definición del alcance: Es importante delimitar qué aspectos se incluyen y cuáles se excluyen en los esfuerzos de la Arquitectura de Referencia y la Arquitectura Objetivo.
+2. Características de partición: Se deben especificar cómo se dividirá la arquitectura, especialmente en términos de dominios específicos (negocios, datos, aplicaciones, tecnología).
+3. Período de tiempo: Se debe establecer la duración total y la extensión de cualquier período de tiempo intermedio que se considerará.
+4. Activos arquitectónicos: Se deben identificar los activos que se utilizarán o se considerarán para su uso.
+
+Confirmar y Elaborar los Principios de la Arquitectura, incluidos los Principios de Negocio
+1. Revisar los principios bajo los cuales se va a desarrollar la arquitectura.
+2. Asegúrese de que las definiciones existentes estén actualizadas y aclare cualquier área de ambigüedad.
+
+Desarrollar la visión de la arquitectura
+1. Comprensión de Artefactos Requeridos: Se enfoca en la comprensión de los artefactos necesarios para guiar las fases posteriores de l arquitectura, incluyendo decisiones estratégicas y políticas que afectarán la toma de decisiones de las partes interesadas.
+2. Desarrollo de la Visión de la Arquitectura: Se recomienda decidir una arquitectura general que muestre cómo encajarán todos los entregables del dominio de la arquitect

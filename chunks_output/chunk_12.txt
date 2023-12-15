@@ -1,0 +1,70 @@
+atégicos, normas de conformidad y hoja de ruta de acuerdo al análisis de impacto
+■ Documentar el Contrato de Arquitectura
+- Obtener la firma de todas las organizaciones desarrolladoras y de la organización patrocinadora
+■ Proporcionar requerimientos de servicio derivados de la Arquitectura Empresarial
+■ Guiar la definición de los requerimientos operativos de negocio y de TI
+■ Análisis de la brecha entre la Arquitectura de la Solución y las operaciones
+■ Elaborar un plan de implantación
+
+Realizar Revisiones de Cumplimiento de la Arquitectura Empresarial
+■ Revisar el gobierno de la implementación en curso y el Cumplimiento de la Arquitectura para cada bloque de construcción
+■ Realizar revisiones posteriores al desarrollo
+■ Cerrar la parte de desarrollo de los proyectos de implementación
+
+Implementar las operaciones de negocio y de TI
+■ Llevar a cabo los proyectos de implementación,
+- Implementación de la entrega de servicios de TI
+- Implementación de entrega de servicios de negocio
+- Implementación de la capacitación
+■ Publicar nuevas Arquitecturas de Referencias en el Repositorio de Arquitectura y actualizar otros repositorios afectados
+
+Realizar la revisión posterior a la implementación y cerrar la implementación
+■ Realizar revisiones posteriores a la implementación
+■ Publicar reseñas y cerrar los proyectos
+El cierre de la fase G se producirá cuando las soluciones se implementen completamente una vez.
+
+FASE H Gestión de Cambios de la arquitectura
+
+Se establece un proceso para gestionar cambios en la arquitectura a lo largo del tiempo. Se evalúan y controlan los cambios propuestos y se ajusta la arquitectura según sea necesario.
+
+Etapas:
+
+1. Establecer el proceso de realización del valor
+2. Implementar herramientas de supervisión
+3. Gestionar los riesgos
+4. Proporcionar análisis para la gestión del cambio de la arquitectura
+5. Desarrollar los requerimientos de cambio para cumplir los objetivos de rendimiento
+6. Gestionar el proceso de gobierno
+7. Activar el proceso para implementar el cambio
+
+Establecer el proceso de realización del valor
+Influir en los proyectos de negocio para explotar la Arquitectura Empresarial para la realización del valor (resultados).
+
+Implementar herramientas de supervisión
+■ Supervisar los cambios tecnológicos que podrían afectar a la Arquitectura de Referencia
+■ Supervisar los cambios de negocios que podrían afectar a la Arquitectura de Referencia
+■ Supervisar la Madurez de la Capacidad de Arquitectura Empresarial
+■ Determinar y realizar un seguimiento de los requerimientos de continuidad del negocio
+
+Gestionar los riesgos
+Gestionar los riesgos de la Arquitectura Empresarial y proporcionar recomendaciones para la estrategia de TI.
+
+Proporcionar análisis para la gestión del cambio de la arquitectura
+■ Realizar revisiones del rendimiento de la Arquitectura Empresarial con la gestión de servicios
+■ Realizar un análisis de las brechas en el rendimiento de la Arquitectura Empresarial
+■ Garantizar que las solicitudes de gestión de cambios se adhieran a el gobierno y al Marco de la Arquitectura Empresarial
+
+Desarrollar los requerimientos de cambio para cumplir los objetivos de rendimiento
+Hacer recomendaciones sobre las necesidades de cambio para cumplir los objetivos de rendimiento y el desarrollo de la posición para actuar.
+
+Gestionar el proceso de gobierno
+■ Organizar la reunión del Junta de Arquitectura
+■ Celebrar reunión del Junta de Arquitectura con el objetivo de decidir sobre la gestión de los cambios (tecnológicos y negocios y las dispensas).
+
+Activar el proceso para implementar el cambio
+■ Producir una nueva Solicitud de Trabajo de Arquitectura y solicitud de inversión
+■ Asegurar que cualquier cambio implementado en esta fase sea capturado y documentado en el Repositorio de Arquitectura
+
+
+
+PREGUNTAS Y RESPUESTAS:

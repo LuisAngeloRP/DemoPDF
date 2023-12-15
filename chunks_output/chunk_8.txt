@@ -1,0 +1,67 @@
+ apartado se debe crear un documento formal para el área responsable de todo este proceso. 
+
+Fase D - Arquitectura tecnológica
+
+Definición:
+Desarrollar la Arquitectura de la Aplicación objetivo que permita la arquitectura empresarial y la Visión de la Arquitectura, se define la infraestructura tecnológica necesaria para respaldar la arquitectura empresarial. Se identifican hardware, software y tecnologías clave.
+
+Etapas:
+
+1. Seleccionar modelos de referencia, puntos de vista y herramientas
+2. Desarrollar la descripción de la arquitectura tecnológica de referencia
+3. Desarrollar la descripción de la arquitectura tecnológica objetivo
+4. Realizar análisis de brechas
+5. Definir los componentes candidatos de la hoja de ruta
+6. Resolver los impactos en todo el ámbito de la arquitectura
+7. Realizar una revisión formal de las partes interesadas
+8. Finalizar la arquitectura tecnológica
+9. Crear el documento de definición de arquitectura
+
+
+1. Seleccionar modelos de referencia, puntos de vista y herramientas
+
+* Modelo de referencia: Trabajos anteriores o documentación relevante donde se haya usado el TOGAF con el fin de poder implementar con desarrollo actual del trabajo.
+* Puntos de vista: Los puntos de vista son perspectivas específicas desde las cuales se examina la arquitectura y cada punto de vista se enfoca en ciertos aspectos o preocupaciones de la arquitectura.
+* Herramientas: Aplicaciones o técnicas que se utilizan para modelar y analizar la Arquitectura Tecnológica
+	- Power designer -> permite diseñar bases de datos, procesos de negocio y
+ arquitecturas empresariales
+
+2. Desarrollar la descripción de la arquitectura tecnológica de referencia
+
+* Descripción de la Arquitectura Tecnológica existente en la medida necesaria para respaldar la Arquitectura Tecnológica de Destino
+	- Especificaciones de la Arquitectura de Servidores
+	- Especificaciones de la Arquitectura de Redes
+
+Ejemplo:
+-En el índice: BLOQUE, CATEGORÍA, HOSTNAME, N° SERIAL, DIRECCIÓN IP y VERSION FIRMWARE
+
+3. Desarrollar la descripción de la arquitectura tecnológica objetivo
+
+* Mencionar las modificaciones de las actividades de los procesos o de lasareas y mencionar lo planificado para dicha área, es decir, implementación de lo que se espera.
+* Conceptualizar los bloques de construcción de arquitectura.
+* Basarse en las referencias escogidas anteriormente.
+
+4. Realizar análisis de brechas
+
+* Verificación de la consistencia interna y precisión de los modelos de arquitectura
+* Análisis de compensación para resolver conflictos entre diferentes vistas
+* Identificación y explicación las brechas entre la línea de base y el objetivo
+* Especificación de que se mejora y como se hará, en caso haya brechas
+
+5. Definir los componentes candidatos de la hoja de ruta
+
+* Después de crear la Arquitectura de Referencia y la de Destino, se desarrolla una hoja de ruta para priorizar actividades futuras.
+	OJO: Se puede realizar desde el principio indicando todas las actividades
+* Esta hoja de ruta inicial se utilizará como base para una hoja de ruta consolidada en la fase de oportunidades y soluciones.
+	Se puede utilizar Diagrama de Gantt mediante Excel, Imágenes de la misma organización o MS Project -> Planificación de las tareas, su duración y programación a lo largo del tiempo
+
+6. Resolver los impactos en todo el ámbito de la arquitectura
+
+* Identificar impactos y oportunidades mediante la especificación de un contexto para una solución.
+* Se consideran proyectos preexistentes, cambios recientes y posibles proyectos futuros que puedan verse afectados o afectar a la Arquitectura Tecnológica.
+* Recomendable proponer cuadro de la intensidad de cada impacto para analizar la priorización de cada impacto.
+* Recordar que esto se realiza en caso haya impactos.
+
+7. Realizar una revisión formal de las partes interesadas
+
+* Verificar si la Arquitectura Tecnológica propuesta es adec

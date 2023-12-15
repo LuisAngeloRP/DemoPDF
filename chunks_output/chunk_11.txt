@@ -1,0 +1,67 @@
+ actores ejecutivos.
+■ Los Factores Críticos de Éxito (CSF) deben establecerse para definir el éxito de un proyecto y/o incremento de proyecto.
+■ Las Medidas de Eficacia (MOE) suelen ser criterios de rendimiento y muchas empresas las incluyen en los CSF.
+■ El ajuste estratégico basado en la Arquitectura Empresarial general (todos los niveles) será el factor crítico para permitir la aprobación de cualquier nuevo proyecto.
+
+Estimar los requerimientos de recursos, los tiempos del proyecto y la disponibilidad/vehículo de entrega
+1. Determinar los recursos y tiempos necesarios para cada proyecto y sus incrementos, y se obtienen las estimaciones de costos iniciales.
+2. Asignar los recursos necesarios a cada actividad y agréguelos a nivel de incremento de proyecto.
+
+Priorizar los proyectos de migración a través de la realización de una evaluación de costo/beneficio y validación de riesgos
+1. Evaluar costos y beneficios de proyectos.
+2. Mitigar y considerar riesgos de manera efectiva.
+3. Obtener consenso para crear lista de proyectos priorizados.
+4. Revisar riesgos y actualizar la lista de proyectos.
+5. Alinear criterios de priorización con beneficios y entregables.
+6. Revisar formalmente la evaluación de riesgos y entender el riesgo residual.
+
+Confirmar la Hoja de Ruta de Arquitectura y actualizar el Documento de Definición de Arquitectura
+1. Actualizar la Hoja de Ruta de la Arquitectura.
+2. Evaluar plazos y factores como el riesgo.
+3. Consolidar resultados por proyecto.
+4. Actualizar el Documento de Definición de Arquitectura.
+
+Completar el Plan de Implementación y Migración
+1. Generar un Plan de Implementación y Migración completo.
+2. Incluir detalles de proyectos, dependencias y recursos.
+3. Integrar todas las actividades y proyectos.
+4. Incorporar planes de proyecto
+
+Plan de Implementación y Migración
+Documento que detalla cómo se llevará a cabo un proyecto y la transición de sistemas, datos y procesos
+
+Completar el ciclo de desarrollo de la arquitectura y documentar las lecciones aprendidas
+1. Documentar lecciones aprendidas.
+2. Considerar un Modelo de Gobierno de Implementación si es necesario.
+3. Detallar la Hoja de Ruta de la Arquitectura y el Plan de Implementación y Migración.
+
+Fase G Gobierno de la implementación
+
+Se centra en la gestión y control de la implementación de la arquitectura. Se asegura que los proyectos se alineen con la visión arquitectónica y se controlen los cambios.
+
+Etapas:
+
+1. Confirmar el alcance y las prioridades de implementación con la gestión de desarrollo
+2. Identificar recursos y competencias de implementación
+3. Guía de Desarrollo de Implementación de Soluciones
+4. Realizar Revisiones de Cumplimiento de la Arquitectura Empresarial
+5. Implementar las operaciones de negocio y de TI
+6. Realizar la revisión posterior a la implementación y cerrar la implementación
+
+Confirmar el alcance y las prioridades de implementación con la gestión de desarrollo
+■ Identificar las prioridades de la Arquitectura Empresarial para los equipos de desarrollo
+■ Identificar los problemas de implementación y hacer recomendaciones
+■ Identificar los bloques de construcción para la sustitución, actualización, etc.
+■ Realizar un análisis de las brechas de la Arquitectura Empresarial y del marco de
+soluciones
+■ Producir un informe de análisis de brechas
+
+Identificar recursos y competencias de implementación
+Los recursos del proyecto incluirán los recursos de desarrollo que necesitarán ser educados en los resultados generales de la Arquitectura Empresarial y las expectativas de los proyectos específicos de desarrollo e implementación.
+■ Identificar los métodos de desarrollo de sistemas necesarios para el desarrollo de soluciones
+- Uso de lenguajes de modelado para el desarrollo de la Arquitectura Empresarial
+■ Garantizar que el método de desarrollo de sistemas permita retroalimentar al equipo de arquitectura sobre los diseños.
+
+Guía de Desarrollo de Implementación de Soluciones
+■ Formular la recomendación del proyecto
+- Documentar el alcance , los requerimientos estr
