@@ -157,7 +157,7 @@ def main():
 
 
     if 'openai_api_key' not in st.session_state:
-        openai_api_key = "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"
+        openai_api_key = "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"
         if openai_api_key:
             st.session_state.openai_api_key = openai_api_key
             os.environ["OPENAI_API_KEY"] = openai_api_key
