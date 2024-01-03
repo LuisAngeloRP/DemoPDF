@@ -14,39 +14,43 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
 from langchain.callbacks.base import CallbackManager
 
-st.set_page_config(page_title="TOGAF con PDFs", page_icon=':book:')
+st.set_page_config(page_title="Demo", page_icon=':book:')
+
+@st.cache_data
+def load_Peruano():
+    st.info("`Leyendo Peruano ...`")
+    all_text = ""
+    pdf_reader = PyPDF2.PdfReader("Peruano.pdf")
+    text = ""
+    for page in pdf_reader.pages:
+        text += page.extract_text()
+    all_text += text
+    return all_text
 
 @st.cache_data
 def load_docs(files):
-    st.info("`Leyendo TOGAF ...`")
+    st.info("`Leyendo Peruano ...`")
     all_text = ""
-    
-    # Leer el archivo TOGAF
-    pdf_reader_togaf = PyPDF2.PdfReader("togaf.pdf")
-    text_togaf = ""
-    for page in pdf_reader_togaf.pages:
-        text_togaf += page.extract_text()
-    all_text += text_togaf
-
+    pdf_reader = PyPDF2.PdfReader("Peruano.pdf")
+    text = ""
+    for page in pdf_reader.pages:
+        text += page.extract_text()
+    all_text += text
     st.info("`Leyendo documento ...`")
-    
-    # Comprobar si se subieron archivos
-    if files is not None:
-        for file_path in files:
-            file_extension = os.path.splitext(file_path.name)[1]
-            if file_extension == ".pdf":
-                pdf_reader = PyPDF2.PdfReader(file_path)
-                text = ""
-                for page in pdf_reader.pages:
-                    text += page.extract_text()
-                all_text += text
-            elif file_extension == ".txt":
-                stringio = StringIO(file_path.getvalue().decode("utf-8"))
-                text = stringio.read()
-                all_text += text
-            else:
-                st.warning('Por favor, proporcione un archivo txt o pdf.', icon="⚠️")
-    
+    for file_path in files:
+        file_extension = os.path.splitext(file_path.name)[1]
+        if file_extension == ".pdf":
+            pdf_reader = PyPDF2.PdfReader(file_path)
+            text = ""
+            for page in pdf_reader.pages:
+                text += page.extract_text()
+            all_text += text
+        elif file_extension == ".txt":
+            stringio = StringIO(file_path.getvalue().decode("utf-8"))
+            text = stringio.read()
+            all_text += text
+        else:
+            st.warning('Por favor, proporcione un archivo txt o pdf.', icon="⚠️")
     return all_text
 
 @st.cache_resource
@@ -74,26 +78,6 @@ def split_texts(text, chunk_size, overlap, split_method):
         st.stop()
 
     return splits
-
-@st.cache_data
-def generate_eval(text, N, chunk):
-    st.info("`Generando preguntas de muestra ...`")
-    n = len(text)
-    starting_indices = [random.randint(0, n-chunk) for _ in range(N)]
-    sub_sequences = [text[i:i+chunk] for i in starting_indices]
-    chain = QAGenerationChain.from_llm(ChatOpenAI(temperature=0.2))
-    eval_set = []
-    for i, b in enumerate(sub_sequences):
-        try:
-            qa = chain.run(b)
-            eval_set.append(qa)
-            st.write("Creando Pregunta:", i+1)
-        except:
-            st.warning('Error al generar la pregunta %s.' % str(i+1), icon="⚠️")
-    eval_set_full = list(itertools.chain.from_iterable(eval_set))
-    return eval_set_full
-
-# ...
 
 def main():
     foot = f"""
@@ -146,7 +130,7 @@ def main():
     st.write(
         f"""
         <div style="display: flex; align-items: center; margin-left: 0;">
-            <h1 style="display: inline-block;">TOGAF PDF</h1>
+            <h1 style="display: inline-block;">DemoPDF</h1>
             <sup style="margin-left:5px;font-size:small; color: green;">beta v0.4</sup>
         </div>
         """,
@@ -168,11 +152,12 @@ def main():
         "Tamaño de Chunk (chunk_size)", 100, 2000, 1000, step=100)
     
     splitter_type = "RecursiveCharacterTextSplitter"
+    
+    load_files_option = st.sidebar.checkbox("Cargar archivos", value=False)
+
 
     if 'openai_api_key' not in st.session_state:
-        openai_api_key = st.text_input(
-            'Por favor, ingresa tu clave de API de OpenAI o [visita aquí](https://platform.openai.com/account/api-keys)',
-            value="", placeholder="Ingresa la clave de API de OpenAI que comienza con sk-")
+        openai_api_key = "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"
         if openai_api_key:
             st.session_state.openai_api_key = openai_api_key
             os.environ["OPENAI_API_KEY"] = openai_api_key
@@ -181,20 +166,40 @@ def main():
     else:
         os.environ["OPENAI_API_KEY"] = st.session_state.openai_api_key
 
-    uploaded_files = st.file_uploader("Sube un documento PDF o TXT", type=[
+    if load_files_option:
+        uploaded_files = st.file_uploader("Sube un documento PDF o TXT", type=[
                                       "pdf", "txt"], accept_multiple_files=True)
-    
-     # Agregar botón para omitir la carga de archivos
-    no_file_upload = st.button("No subir archivos, leer TOGAF directamente")
+        if uploaded_files:
+            if 'last_uploaded_files' not in st.session_state or st.session_state.last_uploaded_files != uploaded_files:
+                st.session_state.last_uploaded_files = uploaded_files
 
-    if no_file_upload:
-        st.session_state.last_uploaded_files = None  # Eliminar archivos cargados
-        st.session_state.eval_set = None  # Eliminar el conjunto de evaluación    
+            loaded_text = load_docs(uploaded_files)
+            st.write("Documentos cargados y procesados.")
 
-    if uploaded_files or no_file_upload:
-        loaded_text = load_docs(uploaded_files)
-        st.write("Documentos cargados y procesados.")
+            splits = split_texts(loaded_text, chunk_size=chunk_size,
+                                overlap=0, split_method=splitter_type)
 
+            num_chunks = len(splits)
+            st.write(f"Número de chunks: {num_chunks}")
+
+            if embedding_option == "OpenAI Embeddings":
+                embeddings = OpenAIEmbeddings()
+
+            retriever = create_retriever(embeddings, splits, retriever_type)
+
+            callback_handler = StreamingStdOutCallbackHandler()
+            callback_manager = CallbackManager([callback_handler])
+
+            chat_openai = ChatOpenAI(
+                streaming=True, callback_manager=callback_manager, verbose=True, temperature=temperature)
+            qa = RetrievalQA.from_chain_type(llm=chat_openai, retriever=retriever, chain_type="stuff", verbose=True)
+
+            user_question = st.text_input("Ingresa tu pregunta:")
+            if user_question:
+                answer = qa.run(user_question)
+                st.write("Respuesta:", answer)
+    else:
+        loaded_text = load_Peruano()
         splits = split_texts(loaded_text, chunk_size=chunk_size,
                              overlap=0, split_method=splitter_type)
 
@@ -213,22 +218,6 @@ def main():
             streaming=True, callback_manager=callback_manager, verbose=True, temperature=temperature)
         qa = RetrievalQA.from_chain_type(llm=chat_openai, retriever=retriever, chain_type="stuff", verbose=True)
 
-        if 'eval_set' not in st.session_state or st.session_state.eval_set is None:
-            num_eval_questions = 0
-            st.session_state.eval_set = generate_eval(
-                loaded_text, num_eval_questions, 3000)
-
-        for i, qa_pair in enumerate(st.session_state.eval_set or []):
-            st.sidebar.markdown(
-                f"""
-                <div class="css-card">
-                <span class="card-tag">Pregunta {i + 1}</span>
-                    <p style="font-size: 12px;">{qa_pair['question']}</p>
-                    <p style="font-size: 12px;">{qa_pair['answer']}</p>
-                </div>
-                """,
-                unsafe_allow_html=True,
-            )
         st.write("Listo para responder preguntas.")
 
         user_question = st.text_input("Ingresa tu pregunta:")
